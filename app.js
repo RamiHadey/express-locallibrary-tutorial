@@ -11,7 +11,7 @@ var app = express();
 
 //set up mongoose connection
 const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://admin:<password>@cluster0.ttvqq.mongodb.net/<dbname>?retryWrites=true&w=majority";
+const uri = "mongodb+srv://admin:2122232426Rami@cluster0.ttvqq.mongodb.net/Cluster0?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true });
 client.connect(err => {
   const collection = client.db("test").collection("devices");

@@ -9,7 +9,7 @@ var GenreSchema = new Schema(
         // historical: { type: String, required: true, maxlength: 100 },
         // romance: { type: String, required: true, maxlength: 100 },
     } 
-);     
+);       
              
 // Virtual for book's URL
 GenreSchema
