@@ -13,7 +13,7 @@ var app = express();
 // var mongoose = require('mongoose');
 // var mongoDB = 'mongodb+srv://admin:2122232426Rami@cluster0.kdalz.mongodb.net/local_library?retryWrites=true&w=majority'
 const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://admin:2122232426Rami@cluster0.ttvqq.mongodb.net/Cluster0?retryWrites=true&w=majority";
+const uri = "mongodb+srv://admin:@cluster0.ttvqq.mongodb.net/Cluster0?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true });
 client.connect(err => {
   const collection = client.db("test").collection("devices");
